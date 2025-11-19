@@ -16,7 +16,7 @@
 Config = {}
 
 -- Definitions for alert types. Key = alert identifier used in code (e.g. 'police').
--- Fields:
+-- Fields: 
 --  command: command name to trigger the alert (if you expose commands)
 --  jobs: table/list of job identifiers that should receive the alert
 --  msg: the message text sent as alert to the target players
@@ -68,3 +68,4 @@ Config.defaultBlipDuration = 180           -- how long (seconds) a created blip 
 -- Optional: add any custom settings below, e.g. icon color, sound, permission checks, etc.
 
 return Config
+
