@@ -1,4 +1,4 @@
-# skrievo_alert — Alarm / Alert system for VORP
+# Akrievo Alert — Alert system for VORP
 
 This repository contains `skrievo_alert`, a small server-side alert system for VORP-based servers. It allows sending notifications and temporary blips to players or job groups.
 
@@ -125,4 +125,5 @@ License & Support
 
 Note
 ----
+
 This README is meant as a short guide. I can add a `config.lua` template or badges/examples if you want.
