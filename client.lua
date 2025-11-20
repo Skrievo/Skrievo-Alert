@@ -2,7 +2,7 @@ local cooldown = false
 local timer = Config.alertcooldown
 local blips = {}
 local isalerted = false 
-local doctor = true 
+local doctor = false 
 local isalerted2 = false 
 local serverid
 local isalerted3 = false 
@@ -127,3 +127,4 @@ RegisterCommand(Config.cancelblipcommand, function(source, args, rawCommand)
     blips = {}
 
 end, false)
+
