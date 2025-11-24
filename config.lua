@@ -1,12 +1,6 @@
 --[[
   skrievo_alert configuration
 
-  Kurze Hinweise (DE/EN):
-  - Passe die Einträge in `Config.alerts` an, um verschiedene Alarmtypen / Befehle zu definieren.
-  - `jobs` ist eine Liste von Job-Identifiers, die die Alarmnachricht erhalten sollen.
-  - `blip` enthält Blip-Parameter (Icon/Sprite und Anzeigename). Die Keys wurden bewusst
-    an bestehende Implementationen angepasst (blipsprite / Name).
-
   Small notes (EN):
   - Adjust entries in `Config.alerts` to define alert types and their chat/command triggers.
   - `jobs` is an array of job names that will be notified when the alert triggers.
@@ -68,6 +62,7 @@ Config.defaultBlipDuration = 180           -- how long (seconds) a created blip 
 -- Optional: add any custom settings below, e.g. icon color, sound, permission checks, etc.
 
 return Config
+
 
 
 
